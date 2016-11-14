@@ -14,12 +14,13 @@ notifications:
 
 android:
   components:
-    - build-tools-23.0.3
-    - android-23
+    - tools
+    - build-tools-25.0.0
+    - android-25
 
 env:
     matrix:
-      - ANDROID_TARGET=android-23
+      - ANDROID_TARGET=android-25
 
 before_install:
 
